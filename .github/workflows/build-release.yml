@@ -19,7 +19,8 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
-          go-version: "1.22"
+          go-version-file: go.mod
+          cache-dependency-path: go.sum
 
       - name: Build geosite.json
         run: |
