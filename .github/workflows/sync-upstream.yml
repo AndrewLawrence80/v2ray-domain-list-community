@@ -2,7 +2,7 @@ name: Sync Upstream v2fly/domain-list-community
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Run daily at UTC Midnight
+    - cron: "0 0 * * 0" # Run weekly on Sunday at UTC Midnight
   workflow_dispatch: # Allow manual sync execution
 
 jobs:
