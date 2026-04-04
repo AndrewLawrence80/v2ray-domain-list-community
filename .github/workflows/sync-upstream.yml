@@ -1,0 +1,53 @@
+name: Sync Upstream v2fly/domain-list-community
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run daily at UTC Midnight
+  workflow_dispatch: # Allow manual sync execution
+
+jobs:
+  sync_upstream:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add Upstream Remote & Fetch
+        run: |
+          git remote add upstream https://github.com/v2fly/domain-list-community.git
+          git fetch upstream master
+
+      - name: Sync Domain List Data
+        run: |
+          # We check out ONLY the `data/` directory from the upstream master branch to prevent merge conflicts.
+          # We don't want to override our custom generator code (like `/v2/`) with upstream's generator (`main.go`).
+          git checkout upstream/master -- data/
+
+      - name: Commit and Push Updates
+        id: commit_changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Changes detected in data/ directory, preparing to commit & tag."
+            git add data/
+            git commit -m "Auto-sync with upstream v2fly/domain-list-community data"
+            git push origin HEAD
+
+            # Tag a new release dynamically so the build-release.yml workflow will pick it up
+            NEW_TAG="$(date +'%Y%m%d%H%M')"
+            git tag "$NEW_TAG"
+            git push origin "$NEW_TAG"
+            echo "pushed_tag=true" >> $GITHUB_ENV
+          else
+            echo "No upstream changes found. Everything is up to date."
+            echo "pushed_tag=false" >> $GITHUB_ENV
+          fi

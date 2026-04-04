@@ -1,0 +1,43 @@
+name: Build and Release geosite.json
+
+on:
+  push:
+    tags:
+      - "20*"
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Codebase
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Build geosite.json
+        run: |
+          mkdir -p release
+          cd v2
+          go run . -data=../data -output=../release/geosite.json
+
+      - name: Generate Release Checksum
+        run: |
+          cd release
+          sha256sum geosite.json > geosite.json.sha256sum
+
+      - name: Publish Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          files: |
+            release/geosite.json
+            release/geosite.json.sha256sum
+          draft: false
+          prerelease: false
