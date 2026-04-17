@@ -13,6 +13,7 @@ include:atlassian
 include:att
 include:autodesk
 include:bandwagonhost
+include:beget
 include:blurams
 include:broadcom
 include:canon
@@ -35,6 +36,7 @@ include:gigabyte
 include:gmo-internet
 include:godaddy
 include:google
+include:headhunter
 include:hetzner
 include:hinet
 include:hkbn
@@ -70,6 +72,7 @@ include:oracle
 include:panasonic
 include:pccw
 include:plex
+include:progress
 include:qnap
 include:qualcomm
 include:qwant
@@ -87,9 +90,11 @@ include:st
 include:synology
 include:symantec
 include:theboringcompany
+include:timeweb
 include:tonec
 include:uber
 include:ubiquiti
+include:ucoz
 include:verisign
 include:verizon
 include:vultr
