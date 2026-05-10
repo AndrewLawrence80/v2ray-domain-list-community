@@ -9,6 +9,7 @@ include:apple @ads
 include:baidu @ads
 include:bytedance @ads
 include:carrotquest @ads
+include:category-food-cn @ads
 include:cctv @ads
 include:disney @ads
 include:dmm @ads
@@ -29,6 +30,7 @@ include:meta @ads
 include:microsoft @ads
 include:mihoyo @ads
 include:mindbox @ads
+include:mts-ru @ads
 include:netease @ads
 include:ookla-speedtest @ads
 include:openai @ads
@@ -37,6 +39,7 @@ include:picacg @ads
 include:pikpak @ads
 include:pixiv @ads
 include:qihoo360 @ads
+include:rostelecom @ads
 include:samsung @ads
 include:sber @ads
 include:sina @ads
