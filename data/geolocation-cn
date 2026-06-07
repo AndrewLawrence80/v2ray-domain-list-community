@@ -51,6 +51,12 @@ cc-pay.cn
 helipay.com
 ## 徽商期货有限责任公司
 hsqh.net
+## 盒子支付
+iboxpay.com
+## 汇聚支付
+joinpay.com
+## 乐惠-微信支付
+lehuipay.com
 ## 上海陆金所
 lu.com
 lufax.com
@@ -100,10 +106,17 @@ suufun.com
 suu-fun.com
 
 # Cloud Service
+## 安徽大家网络科技
+cnwza.cn
+govwza.cn
 ## 广州润雨科技有限公司 粤ICP备19052839号
 rainyun.com
 ## 深圳市狐蒂云网络科技有限公司 粤ICP备2025387186号-1
 szhdy.com
+## 中企动力
+300.cn
+thefastfile.com
+thefastimg.com
 
 # E-commerce
 include:58tongcheng
@@ -133,22 +146,42 @@ appsimg.com
 appvipshop.com
 vip.com
 vipstatic.com
+## 首旅如家/和美酒店
+btghotels.com
+bthhotels.com
+homeinns.com
 ## 多点新鲜
 dmall.com
 dmallcdn.com
+## 大润发
+feiniu.com
+fn-mart.com
+rt-mart.com.cn
 ## 微店
 geilicdn.com
 weidian.com
 ## 闲管家（深圳市收收科技）
 goofish.pro
+## 华住集团
+huazhu.com
+huazhucorp.com
+hworld.com
 ## 货摊网
 huotan.net
+## 锦江国际
+jinjiang.com
+jinjianghotels.com.cn
+jinjiangonline.net
+jjtravel.com
 ## 聚美优品
 jmstatic.com
 jumei.com
 ## 孔夫子旧书网
 kongfz.com
 kfzimg.com
+## 银泰百货
+intime.com.cn
+linkheer.com
 ## 慢慢买
 manmanbuy.com
 ## 美物清单
@@ -166,6 +199,10 @@ qyerstatic.com
 ruseer.com
 ## 瞎买
 xiamai.net
+## 亚朵
+yaduo.com
+## 诸葛找房
+zhuge.com
 
 # Forums
 include:b3log
@@ -195,6 +232,7 @@ mala.cn # 麻辣社区
 mcbbs.net # MCBBS论坛
 pcbeta.com # 远景论坛
 right.com.cn # 恩山论坛
+tianya.net # 天涯社区
 touying.com # 投影网
 txrjy.com # 通信人家园
 uiwow.com # 魔兽有爱论坛
@@ -202,12 +240,15 @@ wuyou.net # 无忧启动论坛
 x-station.cn # X电站
 znds.com # 智能电视网
 
-# 51CTO
+## 51CTO
 51cto.com
 51ctocdn.cn
-# DCC Forum（心跳文学部中文论坛）
+## DCC Forum（心跳文学部中文论坛）
 edgemonix.top # 图床
 monika.love
+## 妈妈网
+mama.cn
+cdnmama.com
 
 423down.com # 423Down
 acwifi.net # 路由器技术分享
@@ -261,6 +302,8 @@ piyao.org.cn
 redcross.org.cn
 ## 中国殡葬网
 zgbznet.com.cn
+## 中国记协网
+zgjx.cn
 
 # Public transportation
 ## 中国国际航空
@@ -313,6 +356,7 @@ xiamenair.com
 ## 中国民航局
 caac.gov.cn
 ## 信天游（航空电子客票验真）
+travelsky.com.cn
 travelskymobile.cn
 ## 航旅纵横
 umetrip.com
@@ -415,6 +459,8 @@ include:zhubajie
 ## 容联七陌 客服 营销
 7moor-fs1.com
 7moor.com
+## 在意空气
+air-matters.com
 ## Alook 浏览器
 alookweb.com
 ## 安兔兔
@@ -444,11 +490,15 @@ deepepg.com
 kookong.com
 ## 滴答清单
 dida365.com
+## 短书
+duanshu.com
 ## 兑吧
 dui88.com
 duiba.com.cn
 ## 方正字库
 foundertype.com
+## 发现报告
+fxbaogao.com
 ## 共享记账
 gongxiangjizhang.com
 ## 快应用
@@ -472,6 +522,8 @@ i8tq.com
 tq121.com.cn
 weather.com.cn
 weatherdt.com
+## 国聘
+iguopin.com
 ## 沉浸式翻译 (中国版)
 immersivetranslate.cn
 ## 掌阅
@@ -485,6 +537,10 @@ miaotixing.com
 moseeker.com
 ## 小能智慧云客服
 ntalker.com
+## 排队网
+paidui.com
+## 深信服
+sangfor.com.cn
 ## 心知天气
 sencdn.com
 seniverse.com
@@ -536,6 +592,7 @@ include:dji
 include:gree
 include:haier
 include:hikvision
+include:hisense
 include:honor
 include:huawei @-!cn
 include:hupun # 杭州湖畔网络技术有限公司
@@ -566,7 +623,6 @@ include:zte
 51togic.com # 泰捷WEBOX
 avlyun.com # 安天移动安全
 dreame.tech # 追觅科技
-hisensehitachi.com # 海信日立官网
 insta360.com # 影石Insta360
 jamcz.com # 晨钟网络科技
 jmgo.com # 坚果投影
@@ -855,7 +911,6 @@ bojianger.com
 bokecc.com
 boosj.com
 btgtravel.com
-bthhotels.com
 btime.com
 cabbagebox.com
 caijingwu.com
@@ -1144,7 +1199,6 @@ jianbihua.com
 jiangningwater.com # 苏ICP备11072203号-1
 jianzhi8.com
 jiaodong.net
-jiaoyimao.com
 jiasuhui.com
 jiathis.com
 jiayuan.com
@@ -1447,14 +1501,11 @@ tongkask.com # 苏ICP备2021040813号-1
 topthink.com
 touqikan.com
 touzid.com
-travelsky.com
 trjcn.com
 trunktech.com
 trustexporter.com
 trustutn.org
 ttshitu.com # 苏ICP备2024114441号-1
-tudou.com
-tudouui.com
 tuicool.com
 tuiwen.net
 tujia.com
@@ -1721,3 +1772,6 @@ wanji.net.cn
 
 # 广州市雅望互联网服务有限公司
 gzyowin.com
+
+# 杭州烨彬科技有限公司 浙ICP备2024084590号
+yebinnet.com
