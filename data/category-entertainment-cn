@@ -4,7 +4,6 @@ include:category-games-cn
 
 include:aamgame
 include:acfun
-include:acplay
 include:bilibili @-!cn
 include:ciweimao
 include:dedao
@@ -69,6 +68,9 @@ include:wasu
 xiu123.cn
 # 动画巡礼
 anitabi.cn
+# 咔叽相机
+b612kaji.com
+kajicam.com
 # 暴风影音
 baofeng.com
 baofeng.net
@@ -123,8 +125,6 @@ inke.cn
 ikstatic.cn
 # 晋江文学城
 jjwxc.net
-# 咔叽相机
-kajicam.com
 # 酷匠网
 kjcdn.com
 kujiang.com
