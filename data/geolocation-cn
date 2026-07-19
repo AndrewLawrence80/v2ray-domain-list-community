@@ -51,6 +51,8 @@ baicaf.com
 cc-pay.cn
 ## 易鑫金融
 daikuan.com
+## 嘟噜支付
+dulupay.com
 ## 合利宝
 helipay.com
 ## 徽商期货有限责任公司
@@ -526,6 +528,8 @@ include:zhubajie
 7moor.com
 ## 在意空气
 air-matters.com
+## Hover Translate #3854
+full:api.blipsandchitz.me
 ## Alook 浏览器
 alookweb.com
 ## AniXPlayer
@@ -673,7 +677,7 @@ include:aisiku # 北京艾斯酷科技有限公司
 include:akiko # 秋子酱科技
 include:alibaba @-!cn
 include:anker @-!cn
-include:aux @-!cn # 奥克斯集团
+include:auxgroup @-!cn # 奥克斯集团
 include:baidu
 include:beisen
 include:bluepoch
@@ -1522,7 +1526,6 @@ qudong.com
 qugame.com
 qunjielong.com # 桂ICP备14006138号-2
 rockyenglish.com
-rrmj.plus
 rtbasia.com
 ruan8.com
 ruiwen.com
@@ -1868,3 +1871,6 @@ wanji.net.cn
 
 # 杭州烨彬科技有限公司 浙ICP备2024084590号
 yebinnet.com
+
+# 杭州实科金人科技有限公司/杭州钱塘区人才就业服务网
+hrsecn.com
