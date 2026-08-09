@@ -15,7 +15,6 @@ include:category-anticensorship
 include:category-proxy-tunnels
 
 # Art & Design & Photography
-include:artstation
 include:dribbble
 include:dyna
 include:fontsinuse
@@ -182,6 +181,7 @@ include:evernote
 include:faststone
 include:feedly
 include:figma
+include:flyio
 include:gofundme
 include:gravatar
 include:hcaptcha
